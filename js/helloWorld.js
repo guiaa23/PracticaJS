@@ -43,3 +43,16 @@ if (numero6 > numero5 && numero7) {
 if (numero7 > numero5 && numero6) {
     document.write("<br>" + numero7);
 }
+
+//ejercicio 8
+
+let numero8 = parseInt(prompt("Ingrese un numero cualquiera para dividir en 2"));
+
+if (numero8 % 2 == 0) {
+    document.write("<br>El numero " + numero8 + " es divisible en 2");
+} else { document.write("<br>El numero " + numero8 + " no es divisible en 2") };
+
+//ejercicio 9
+
+let str = prompt("Ingrese frase")
+let res = (0, 1)
